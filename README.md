@@ -4,7 +4,7 @@ The music streaming startup, Sparkify, has grown their user base and song databa
 
 -------------------------------------------------
 
-<h2>Database Staging Tables and Star Schema Design</h2>
+<h2>Database Staging Tables and Star Schema Designed Tables(Fact and Dimension Tables)</h2>
 <h4>Staging Tables:</h4>
 <ol>
 <li>staging_songs_table - metadata about a song and the artist of that song</li>
