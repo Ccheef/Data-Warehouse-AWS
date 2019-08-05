@@ -45,3 +45,22 @@ method, page, registration, sessionId, song, status, ts, userAgent, userId</li>
 <li>start_time(primarykey,sortkey), hour, day, week, month, year, weekday</li>
 </ul>
 </ol>
+
+---------------------------------
+
+<h2>ETL Pipeline</h2>
+The create_tables.py script will create staging tables and star schema tables on redshift clusters.<br>
+The etl.py script will automate the ETL process by migrating songs and log-events data from S3 to staging tables on redshift and inserted data from staging tables into star schema designed tables.
+
+---------------------------------
+
+<h2>Running Instruction</h2>
+<ol>
+<li>Follow steps in IaC.ipynb to create the Redshift cluster </li>
+<li>Run create_tables.py to drop tables(if existed) and create tables</li>
+<li>Run etl.py to do the ETL process</li>
+<li>Try some SQL queries on the redshift database (you can use Query Editor on redshift console) to do analytics</li>
+</ol>
+NOTE: Some confidential credentials about AWS have been removed from the configuration file,dwh.cfg. Remember to fill your own credentials before to create the cluster and delete the cluster after finishing all the process)
+
+---------------------------------
