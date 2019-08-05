@@ -51,7 +51,7 @@ method, page, registration, sessionId, song, status, ts, userAgent, userId</li>
 <h2>ETL Pipeline</h2>
 sql_queries.py stores all the SQL queries that will be used by create_tables.py and etl.py<br>
 The create_tables.py script will create staging tables and star schema tables on redshift clusters.<br>
-The etl.py script will automate the ETL process by migrating songs and log-events data from S3 to staging tables on redshift and inserted data from staging tables into star schema designed tables.
+The etl.py script will automate the ETL process by migrating songs and log-events data from S3 to staging tables on redshift and inserting data from staging tables into star schema designed tables.
 
 ---------------------------------
 
