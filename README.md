@@ -65,3 +65,7 @@ The etl.py script will automate the ETL process by migrating songs and log-event
 NOTE: Some confidential credentials about AWS have been removed from the configuration file,dwh.cfg. Remember to fill your own credentials in order to create the cluster and delete the cluster after finishing all the process)
 
 ---------------------------------
+
+<h2>Queries and Results Examples</h2>
+Most Popular Songs: <br>
+![Examples](Most_Popular_Songs.png)
