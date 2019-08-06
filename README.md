@@ -69,3 +69,5 @@ NOTE: Some confidential credentials about AWS have been removed from the configu
 <h2>Queries and Results Examples</h2>
 
 ![Examples](Most_Popular_Songs.png)
+![Examples](most_popular_artist.png)
+![Examples](songnumber_by_hours_for_female.png)
