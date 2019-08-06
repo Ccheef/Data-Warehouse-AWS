@@ -67,5 +67,5 @@ NOTE: Some confidential credentials about AWS have been removed from the configu
 ---------------------------------
 
 <h2>Queries and Results Examples</h2>
-Most Popular Songs: <br>
+
 ![Examples](Most_Popular_Songs.png)
